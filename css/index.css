@@ -1,0 +1,45 @@
+ul{
+    list-style: none;
+}
+.con-top{
+    width: 100%;
+    height:380px;
+    overflow: hidden;
+}
+.con-top .con-img{
+    float: left;
+}
+.con-top .con-img img{
+   float:left;
+}
+.con-top .con-img p{
+    display: inline-block;
+}
+.con-btn {
+    width:100%;
+}
+.con-btn ul li{
+    overflow: hidden;
+    width: 140px;
+    height:76px;
+    display: inline-block;
+    position: relative;
+}
+.con-btn ul li>div{
+    width:100%;
+    height:76px;
+    position: absolute;
+    left:0;
+    top:0;
+    background:rgba(255,0,0,.6);
+    text-align: center;
+    line-height: 76px;
+    transition: .5s
+}
+.con-btn ul li>.hid{
+    top: 76px;
+    transition: .5s;
+}
+.con-btn ul li img{
+    width:100%;
+}
